@@ -6,6 +6,12 @@ body {
 .container {
 	width: 94%;
 	margin: 0 auto;
+	
+}
+
+
+.cabecalhoPrincipal-nav {
+	display: flex;
 }
 
 .cabecalhoPrincipal {
@@ -13,7 +19,9 @@ body {
 	padding: 20px 0;
 }
 
-.cabecalhoPrincipal-titulo {
+
+
+.cabecalhoPrincipal-titulo  {
 	font-weight: bold;
 	font-size: 2em;
 	margin-bottom: 20px;
@@ -298,7 +306,7 @@ body {
 
 .cabecalhoPrincipal-nav {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .rodapePrincipal-patrocinadores .container {
@@ -359,10 +367,10 @@ body {
 }
 
 /*mobile*/
-@media(max-width 768px){
+@media(max-width: 768px){
 
 .conteudoPrincipal-nav {
-	flex-direction: column;
+	flex-direction: row;
 }
 
 
