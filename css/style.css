@@ -370,7 +370,7 @@ body {
 @media(max-width: 768px){
 
 .conteudoPrincipal-nav {
-	flex-direction: row;
+	flex-direction: collum;
 }
 
 
